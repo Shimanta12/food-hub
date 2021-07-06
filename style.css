@@ -1,0 +1,47 @@
+body{
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 43px;
+}
+p{
+    font-size: 30px;
+}
+.pink-text{
+    color: #d70f64;
+}
+#nav-bar{
+    padding: 20px;
+    display: flex;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#home{
+    background-size: 100%;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.flexible-container{
+    display: flex;
+    padding: 30px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 70px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #d70f64, #db6093);
+    padding: 10px 30px;
+    border-radius: 25px;
+}
