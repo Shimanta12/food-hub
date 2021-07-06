@@ -6,11 +6,17 @@ body{
 h1{
     font-size: 43px;
 }
+h2{
+    font-size: 35px;
+}
 p{
     font-size: 25px;
 }
 .pink-text{
     color: #d70f64;
+}
+.cyan-text{
+    color: cyan;
 }
 #nav-bar{
     padding: 20px;
@@ -25,6 +31,7 @@ p{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     width: 100%;
+    height: 625px;
 }
 .flexible-container{
     display: flex;
@@ -34,7 +41,7 @@ p{
     width: 50%;
 }
 .home-image img{
-    width: 70%;
+    width: 65%;
     margin-left: 70px;
 }
 .link-button{
@@ -50,9 +57,70 @@ p{
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height: 595px;
+    height: 625px;
 }
 .about-image{
     width: 70%;
     margin-top: 65px;
+}
+#my-recipes{
+    width: 100%;
+    height: 625px;
+}
+#my-recipes h1{
+    text-align: center;
+}
+.recipe-container{
+    display: flex;
+    width: 100%;
+}
+.recipe-item{
+    width: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px black;
+}
+.recipe-item img{
+    width: 100%;
+}
+#footer{
+    text-align: center;
+    background-color: #d70f64;
+    width: 100%;
+    height: 200px;
+}
+.face-book{
+    text-decoration: none;
+    background-color: rgb(17, 68, 209);
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 0 12px 0 12px;
+    margin: 15px;
+    box-shadow: 3px 3px 5px white;
+}
+.linked-in{
+    text-decoration: none;
+    background-color: rgb(36, 122, 219);
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 0 12px 0 12px;
+    margin: 15px;
+    box-shadow: 3px 3px 5px white;
+}
+.instra-gram{
+    text-decoration: none;
+    background-color: #ee144a;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 0 12px 0 12px;
+    margin: 15px;
+    box-shadow: 3px 3px 5px white;
 }
